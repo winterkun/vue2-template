@@ -18,6 +18,8 @@ export default {
     data() {
         return {}
     },
-    mounted() {}
+    mounted() {
+        console.log(a)
+    }
 }
 </script>
