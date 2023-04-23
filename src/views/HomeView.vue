@@ -19,7 +19,7 @@ export default {
         return {}
     },
     mounted() {
-        console.log(a)
+        console.log(a123)
     }
 }
 </script>
