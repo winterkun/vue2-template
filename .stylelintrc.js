@@ -19,6 +19,12 @@ module.exports = {
     ],
     ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts', '**/*.json', '**/*.md', '**/*.yaml'],
     rules: {
+        'function-no-unknown': [
+            true,
+            {
+                ignoreFunctions: ['/^var/']
+            }
+        ],
         'at-rule-no-unknown': [
             true,
             {
@@ -26,9 +32,9 @@ module.exports = {
             }
         ],
         'selector-class-pattern': [
-            '^[a-zA-Z]+([A-Z][a-z]*)*$',
+            '^[a-z]+([A-Z][a-z]*)*$|^[A-Z][a-z]+([A-Z][a-z]*)*$|^[a-z]+(-[a-z]+)*$|^[a-z]+(_[a-z]+)*$|^[A-Z][a-z]+([A-Z][a-z]*)*$',
             {
-                message: 'Class names should be in camelCase or PascalCase.'
+                message: '命名格式例如firstName,FirstName,first-name,first_name'
             }
         ],
         'no-descending-specificity': null, // 禁止在具有较高优先级的选择器后出现被其覆盖的较低优先级的选择器

@@ -3,7 +3,8 @@
         <img alt="Vue logo" src="src/assets/logo.png" />
         <HelloWorld msg="Welcome to Your Vue.js App" />
         <a href="">123</a>
-        <div class="firstOne"></div>
+        <a href=""></a>
+        <div class="firstOne first1" style="position: absolute; top: 10px"></div>
     </div>
 </template>
 
@@ -25,13 +26,25 @@ export default {
 }
 </script>
 <style lang="scss">
-.firstOne {
+.first-one {
     position: absolute;
     top: 10px;
     background: red;
 }
 
-.firstTwo {
+.first_one {
+    position: absolute;
+    top: 10px;
+    background: red;
+}
+
+.FirstOne {
+    position: absolute;
+    top: 10px;
+    background: red;
+}
+
+.firstOneName {
     position: absolute;
     top: 10px;
     background: red;
