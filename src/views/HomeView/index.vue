@@ -1,7 +1,7 @@
 <template>
     <div class="home">
-        <img alt="Vue logo" src="src/assets/logo.png" />
-        <HelloWorld msg="Welcome to Your Vue.js App" />
+        <img alt="Vue logo" src="src/assets/logo.png"/>
+        <HelloWorld msg="Welcome to Your Vue.js App"/>
         <a href="">123</a>
         <a href=""></a>
         <div class="first-one first1" style="position: absolute; top: 10px">
@@ -18,12 +18,23 @@ export default {
     components: {
         HelloWorld
     },
-    data() {
-        return {}
+
+    methods: {
+        add(a) {
+            console.log(123)
+        }
     },
     mounted() {
-        console.log(123)
-    }
+    },
+    data() {
+        return {
+            obj: {
+                a: 1,
+                b: 2,
+                c: 3
+            }
+        }
+    },
 }
 </script>
 <style lang="scss">
