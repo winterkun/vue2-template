@@ -19,12 +19,6 @@ module.exports = {
     ],
     ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts', '**/*.json', '**/*.md', '**/*.yaml'],
     rules: {
-        'function-no-unknown': [
-            true,
-            {
-                ignoreFunctions: ['/^var/']
-            }
-        ],
         'at-rule-no-unknown': [
             true,
             {
