@@ -1,3 +1,3 @@
 module.exports = {
-	'*': 'node lint-filename.js',
-};
+    '*': 'node lint-filename.js'
+}
