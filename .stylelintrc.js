@@ -22,10 +22,11 @@ module.exports = {
         'at-rule-no-unknown': [
             true,
             {
-                ignoreAtRules: ['extend']
+                ignoreAtRules: ['index']
             }
         ],
         'selector-class-pattern': [
+            //文件命名规范限制，
             '^[a-z]+([A-Z][a-z]*)*$|^[A-Z][a-z]+([A-Z][a-z]*)*$|^[a-z]+(-[a-z]+)*$|^[a-z]+(_[a-z]+)*$|^[A-Z][a-z]+([A-Z][a-z]*)*$',
             {
                 message: '参考：firstName,FirstName,first-name,first_name'

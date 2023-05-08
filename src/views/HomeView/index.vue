@@ -37,6 +37,7 @@ export default {
     width: 500px;
     height: 500px;
 }
+
 .First {
     background: red;
 }
