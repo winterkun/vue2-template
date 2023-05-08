@@ -42,10 +42,6 @@ export default {
     background: red;
 }
 
-.o_v11 {
-    background: red;
-}
-
 .first-three {
     position: absolute;
     top: 10px;
