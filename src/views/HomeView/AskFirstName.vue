@@ -12,27 +12,16 @@
 
 <script>
 import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
     name: 'HomeView',
     components: {
         HelloWorld
     },
-
-    methods: {
-        add(a) {
-            console.log(123)
-        }
-    },
-    mounted() {},
     data() {
-        return {
-            obj: {
-                a: 1,
-                b: 2,
-                c: 3
-            }
-        }
+        return {}
+    },
+    mounted() {
+        console.log(123)
     }
 }
 </script>
@@ -41,11 +30,7 @@ export default {
     background: red;
 }
 
-.o_v {
-    background: red;
-}
-
-.first-three {
+.first {
     position: absolute;
     top: 10px;
     background: red;

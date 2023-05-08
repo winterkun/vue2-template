@@ -8,7 +8,12 @@ module.exports = {
         parser: '@babel/eslint-parser'
     },
     rules: {
-        'prettier/prettier': ['error', { tabWidth: 4 }],
+        'prettier/prettier': [
+            'error',
+            {
+                tabWidth: 4
+            }
+        ],
         'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         'vue/multi-word-component-names': [
@@ -19,13 +24,29 @@ module.exports = {
         ],
         curly: ['error', 'all'],
         'comma-dangle': ['error', 'only-multiline'],
-        camelcase: ['warn', { properties: 'never' }],
-        indent: ['warn', 4, { SwitchCase: 1 }],
-        'no-unused-vars': 'off',
+        camelcase: [
+            'warn',
+            {
+                properties: 'never'
+            }
+        ],
+        indent: [
+            'warn',
+            4,
+            {
+                SwitchCase: 1
+            }
+        ],
+        // 'no-unused-vars': 'off',
         'vue/no-unused-components': 'error',
         'space-before-function-paren': ['error', 'never'],
         'space-before-blocks': ['error', 'always'],
-        'space-infix-ops': ['error', { int32Hint: false }],
+        'space-infix-ops': [
+            'error',
+            {
+                int32Hint: false
+            }
+        ],
         'no-alert': 'error',
         'no-dupe-args': 'error',
         'no-duplicate-case': 'error',
