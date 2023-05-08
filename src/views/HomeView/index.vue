@@ -2,6 +2,7 @@
     <div class="home">
         <img alt="Vue logo" src="src/assets/logo.png" />
         <HelloWorld msg="Welcome to Your Vue.js App" />
+        <div id="video"></div>
         <a href="">123</a>
         <a href=""></a>
         <div class="first-one first1" style="position: absolute; top: 10px">
@@ -12,18 +13,13 @@
 
 <script>
 import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
     name: 'HomeView',
     components: {
         HelloWorld
     },
 
-    methods: {
-        add(a) {
-            console.log(123)
-        }
-    },
+    methods: {},
     mounted() {},
     data() {
         return {
@@ -37,6 +33,11 @@ export default {
 }
 </script>
 <style lang="scss">
+#video {
+    width: 500px;
+    height: 500px;
+}
+
 .First {
     background: red;
 }

@@ -5,7 +5,7 @@
         <a href="">123</a>
         <a href=""></a>
         <div class="first-one first1" style="position: absolute; top: 10px">
-            <div class="second-div" style="position: absolute; top: 10px"></div>
+            <div class="second-div" style="position: absolute; top: 10px" @click="say">click me</div>
         </div>
     </div>
 </template>
@@ -19,6 +19,11 @@ export default {
     },
     data() {
         return {}
+    },
+    methods: {
+        say() {
+            console.log(123)
+        }
     },
     mounted() {
         console.log(123)
