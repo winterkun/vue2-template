@@ -42,7 +42,7 @@ export default {
     background: red;
 }
 
-.o_v1 {
+.o_v11 {
     background: red;
 }
 
