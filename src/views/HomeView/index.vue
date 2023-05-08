@@ -16,7 +16,9 @@ export default {
         HelloWorld
     },
     data() {
-        return {}
+        return {
+            dstjja: 123
+        }
     },
     mounted() {
         console.log(123)
@@ -28,7 +30,11 @@ export default {
     background: red;
 }
 
-.first {
+.o_v {
+    background: red;
+}
+
+.first-three {
     position: absolute;
     top: 10px;
     background: red;
