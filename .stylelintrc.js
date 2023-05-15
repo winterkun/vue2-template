@@ -20,9 +20,10 @@ module.exports = {
     ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts', '**/*.json', '**/*.md', '**/*.yaml'],
     rules: {
         'at-rule-no-unknown': [
+            //对于未知的css报错
             true,
             {
-                ignoreAtRules: ['index']
+                ignoreAtRules: ['extends']
             }
         ],
         'selector-class-pattern': [
