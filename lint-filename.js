@@ -1,3 +1,4 @@
+//提交代码时运行。检测文件命名规范
 const { exec } = require('child_process')
 const path = require('path')
 

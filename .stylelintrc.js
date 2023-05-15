@@ -20,14 +20,14 @@ module.exports = {
     ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts', '**/*.json', '**/*.md', '**/*.yaml'],
     rules: {
         'at-rule-no-unknown': [
-            //对于未知的css报错
+            //对于未知的css报错,忽略extends
             true,
             {
                 ignoreAtRules: ['extends']
             }
         ],
         'selector-class-pattern': [
-            //文件命名规范限制，
+            //css命名规范限制
             '^[a-z]+([A-Z][a-z]*)*$|^[A-Z][a-z]+([A-Z][a-z]*)*$|^[a-z]+(-[a-z]+)*$|^[a-z]+(_[a-z]+)*$|^[A-Z][a-z]+([A-Z][a-z]*)*$',
             {
                 message: '参考：firstName,FirstName,first-name,first_name'
@@ -35,12 +35,14 @@ module.exports = {
         ],
         'no-descending-specificity': null, // 禁止在具有较高优先级的选择器后出现被其覆盖的较低优先级的选择器
         'selector-pseudo-element-no-unknown': [
+            //忽略v-deep
             true,
             {
                 ignorePseudoElements: ['v-deep']
             }
         ],
         'selector-pseudo-class-no-unknown': [
+            //忽略deep
             true,
             {
                 ignorePseudoClasses: ['deep']

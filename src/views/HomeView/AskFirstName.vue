@@ -41,6 +41,12 @@ export default {
     background: red;
 }
 
+.first1 {
+    position: absolute;
+    top: 10px;
+    background: red;
+}
+
 .first_one {
     position: absolute;
     top: 10px;

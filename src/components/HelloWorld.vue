@@ -4,7 +4,7 @@
             {{ msg }}
         </h1>
         <p>
-            For a guide and recipes on how to configure / customize this project,<br />
+            For a guide and recipes on how to configure / customize this project,<br/>
             check out the
             <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
         </p>
@@ -15,7 +15,7 @@
                     href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel"
                     target="_blank"
                     rel="noopener"
-                    >babel</a
+                >babel</a
                 >
             </li>
             <li>
@@ -23,7 +23,7 @@
                     href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router"
                     target="_blank"
                     rel="noopener"
-                    >router</a
+                >router</a
                 >
             </li>
             <li>
@@ -31,7 +31,7 @@
                     href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint"
                     target="_blank"
                     rel="noopener"
-                    >eslint</a
+                >eslint</a
                 >
             </li>
         </ul>
@@ -63,7 +63,7 @@
             </li>
             <li>
                 <a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener"
-                    >vue-devtools</a
+                >vue-devtools</a
                 >
             </li>
             <li>
@@ -81,6 +81,10 @@ export default {
     name: 'HelloWorld',
     props: {
         msg: String
+    },
+    mounted() {
+        const a = 1;
+        console.log(b)
     }
 }
 </script>
