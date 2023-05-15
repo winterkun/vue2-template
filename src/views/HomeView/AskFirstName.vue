@@ -26,6 +26,8 @@ export default {
         }
     },
     mounted() {
+        const a = 1;
+        console.log(b123)
         console.log(123)
     }
 }

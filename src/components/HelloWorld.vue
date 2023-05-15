@@ -83,8 +83,7 @@ export default {
         msg: String
     },
     mounted() {
-        const a = 1;
-        console.log(b123)
+
     }
 }
 </script>
