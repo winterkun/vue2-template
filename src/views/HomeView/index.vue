@@ -42,7 +42,7 @@ export default {
     background: red;
 }
 
-.first {
+.first-three {
     position: absolute;
     top: 10px;
     background: red;
